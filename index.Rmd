@@ -56,7 +56,7 @@ output:
 ### Immigrants in Chicago since 1920
 
 
-<iframe src="http://walkerke.github.io/oldred/chicago-time/chicago_stream.html" frameBorder = '0' scrolling = 'no' width = "850px" height = "500px"></iframe>
+<iframe src="http://walkerke.github.io/oldred/chicago-time/chicago_stream.html" frameBorder = '0' scrolling = 'no' width = "850px" height = "500px" position = 'absolute'></iframe>
 
 ---
 
@@ -83,7 +83,7 @@ output:
 
 ---
 
-### Refugee migration
+### Refugee migration, 2014
 
 <iframe src="http://walkerke.github.io/oldred/refugees/refugees1.html" frameBorder = '0' scrolling = 'no' width = "1000px" height = "600px"></iframe>
 
@@ -123,9 +123,31 @@ output:
 
 ---
 
-### Suburban growth
+<img src=img/all.png style="width: 67%">
 
-(visualization here of growth in immigrant population)
+---
+
+<img src=img/c1a.png>
+
+---
+
+<img src=img/c2a.png>
+
+---
+
+<img src=img/a1.png>
+
+---
+
+<img src=img/a2.png>
+
+---
+
+<img src=img/w1.png>
+
+---
+
+<img src=img/w2.png>
 
 ---
 
@@ -144,6 +166,18 @@ output:
 * Email: kyle.walker@tcu.edu
 * Web: <http://personal.tcu.edu/kylewalker>
 * Twitter: @kyle_e_walker
+
+---
+
+## Credits
+
+* "Mapping Immigrant America": Data from [NHGIS](http://www.nhgis.org); tiles from [Mapbox](http://www.mapbox.com), &copy; [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
+* Chicago streamgraph (slide 8): Data from [NHGIS](http://www.nhgis.org); visualization built with the `streamgraph` R package by Bob Rudis (https://github.com/hrbrmstr/streamgraph).  
+* Gateway charts (slides 11 and 12): Data from [NHGIS](http://www.nhgis.org); visualization built with [Taucharts](http://www.taucharts.com/) via the `taucharts` R package by Bob Rudis and Kenton Russell (https://github.com/hrbrmstr/taucharts)
+* Refugee flow diagram (slide 13): Data from the [Office of Refugee Resettlement](http://www.acf.hhs.gov/programs/orr/resource/fiscal-year-2014-refugee-arrivals); visualization built with the `networkD3` R package by Chris Gandrud and JJ Allaire (https://christophergandrud.github.io/networkD3/)
+* Metro visualizations (slides 20-26): Data from [NHGIS](http://www.nhgis.org); visualizations built with the `ggplot2` R package by Hadley Wickham (http://ggplot2.org/)
+
+Code used to produce this presentation is available at https://github.com/walkerke/oldred.  
 
 
 
@@ -170,6 +204,10 @@ output:
   border:none; 
   box-shadow:none;
   }
+  
+#credits {
+  font-size: 50%;
+}
   
 </style>
 
