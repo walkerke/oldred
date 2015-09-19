@@ -43,7 +43,7 @@ output:
 
 ## Chicago
 
-<img src=img/polish.jpg style="width: 750px"><figcaption>Source: [WBEZ/Chicago History Museum](http://www.wbez.org/series/curious-city/tale-two-flat-110681)</figcaption>
+<img src=img/czech.jpg style="width: 750px"><figcaption>Source: [WBEZ/Chicago History Museum](http://www.wbez.org/series/curious-city/tale-two-flat-110681)</figcaption>
 
 ---
 
@@ -171,7 +171,7 @@ output:
 
 ## Credits
 
-* "Mapping Immigrant America": Data from [NHGIS](http://www.nhgis.org); tiles from [Mapbox](http://www.mapbox.com), &copy; [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
+* "Mapping Immigrant America": Data from [NHGIS](http://www.nhgis.org); tiles from [Mapbox](http://www.mapbox.com), &copy; [OpenStreetMap contributors](https://www.openstreetmap.org/copyright).  Direct link: http://personal.tcu.edu/kylewalker/immigrant-america.  
 * Chicago streamgraph (slide 8): Data from [NHGIS](http://www.nhgis.org); visualization built with the `streamgraph` R package by Bob Rudis (https://github.com/hrbrmstr/streamgraph).  
 * Gateway charts (slides 11 and 12): Data from [NHGIS](http://www.nhgis.org); visualization built with [Taucharts](http://www.taucharts.com/) via the `taucharts` R package by Bob Rudis and Kenton Russell (https://github.com/hrbrmstr/taucharts)
 * Refugee flow diagram (slide 13): Data from the [Office of Refugee Resettlement](http://www.acf.hhs.gov/programs/orr/resource/fiscal-year-2014-refugee-arrivals); visualization built with the `networkD3` R package by Chris Gandrud and JJ Allaire (https://christophergandrud.github.io/networkD3/)
